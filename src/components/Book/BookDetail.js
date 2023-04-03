@@ -72,6 +72,7 @@ import {
                fullWidth
                variant="outlined"
                name="name"
+               placeholder="Enter book name"
              />
              <FormLabel>Author</FormLabel>
              <TextField
@@ -81,6 +82,7 @@ import {
                fullWidth
                variant="outlined"
                name="author"
+               placeholder="Enter author name"
              />
              <FormLabel>Description</FormLabel>
              <TextField
@@ -91,6 +93,7 @@ import {
                variant="outlined"
                name="description"
                inputProps={{ maxLength: 90 }}
+               placeholder="Enter description"
              />
              <FormLabel>Price</FormLabel>
              <TextField
