@@ -67,6 +67,7 @@ import {
              <TextField
                value={inputs.name}
                onChange={handleChange}
+               required
                margin="normal"
                fullWidth
                variant="outlined"
