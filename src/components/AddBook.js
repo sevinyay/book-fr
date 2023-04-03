@@ -23,7 +23,7 @@ const handleChange = (e) => {
   }));
 };
 const sendRequest = async(e) => { 
-  await axios.post("http://localhost:5000/books",{
+  await axios.post("https://book-full.onrender.com/books",{
     name: String(inputs.name),
     author: String(inputs.author),
     description :String(inputs.description),
