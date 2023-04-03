@@ -27,7 +27,7 @@ import {
  
    const sendRequest = async () => {
      await axios
-       .put(`https://book-full.onrender.com/${id}`, {
+       .put(`https://book-full.onrender.com/books/${id}`, {
          name: String(inputs.name),
          author: String(inputs.author),
          description: String(inputs.description),
