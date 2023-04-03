@@ -89,6 +89,7 @@ import {
                fullWidth
                variant="outlined"
                name="description"
+               inputProps={{ maxLength: 90 }}
              />
              <FormLabel>Price</FormLabel>
              <TextField
